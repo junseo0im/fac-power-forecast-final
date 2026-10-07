@@ -1,0 +1,9 @@
+[22:38:17] tft:B:S1: 시작 (mode=full, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=60` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[22:41:39] tft:B:S1 F6 seed 42: MAE 13.25, best step 50 / 멈춤 60, 202초
+[22:41:39] tft:B:S1: 완료 3.4분

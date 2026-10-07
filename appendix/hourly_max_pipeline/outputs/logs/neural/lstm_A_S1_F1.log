@@ -1,0 +1,23 @@
+[22:42:36] lstm:A:S1@F1: 시작 (mode=full, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[22:59:25] lstm:A:S1 F1 seed 42: MAE 5.75, best step 900 / 멈춤 1000, 1009초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[23:17:49] lstm:A:S1 F1 seed 2021: MAE 5.71, best step 1000 / 멈춤 1000, 1104초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[23:36:43] lstm:A:S1 F1 seed 2024: MAE 5.92, best step 1000 / 멈춤 1000, 1134초
+[23:36:43] lstm:A:S1@F1: 완료 54.1분

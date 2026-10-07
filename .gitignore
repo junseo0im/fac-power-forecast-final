@@ -1,0 +1,26 @@
+# 가상환경·캐시
+.venv/
+.venv-fm/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 원자료·전처리 결과·외부 자료 (data/README.md 참고)
+data/raw/
+data/processed/
+data/external/
+
+# 실제 전력값이 들어 있는 예측·판단 기록 (실행하면 생성)
+outputs/predictions/*
+!outputs/predictions/chronos_*.csv
+!outputs/predictions/extra_*.csv
+outputs/preds/
+appendix/hourly_max_pipeline/outputs/preds/
+appendix/hourly_max_pipeline/outputs/submission/
+appendix/hourly_max_pipeline/outputs/tables/step6_*.csv
+appendix/hourly_max_pipeline/outputs/tables/shap_features_*.csv
+테스트데이터_예측결과.csv
+outputs/chronos_ft/
+
+# 제출 zip
+*.zip

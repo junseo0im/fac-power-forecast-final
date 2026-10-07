@@ -1,0 +1,20 @@
+[23:37:07] nhits:A:S1:336@F2: 시작 (mode=full, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[00:02:53] nhits:A:S1:336 F2 seed 42: MAE 6.92, best step 600 / 멈춤 850, 1546초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[00:26:30] nhits:A:S1:336 F2 seed 2021: MAE 7.22, best step 550 / 멈춤 800, 1417초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[00:47:08] nhits:A:S1:336 F2 seed 2024: MAE 7.40, best step 450 / 멈춤 700, 1237초
+[00:47:08] nhits:A:S1:336@F2: 완료 70.0분

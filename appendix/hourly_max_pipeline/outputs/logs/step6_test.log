@@ -1,0 +1,13 @@
+[00:00:34] 트랙 A: nhits 예측 없음 → 제외
+[00:00:34] 트랙 A: lstm 예측 없음 → 제외
+[00:00:34] 트랙 A: chronos2_cov 예측 없음 → 제외
+[00:00:34] 트랙 A: chronos2_zs 예측 없음 → 제외
+[00:00:34] 트랙 A: 앙상블 후보 ['lgbm', 'lgbm_q', 'lgbm_peakw', 'xgb', 'cat', 'mstl', 'guidebook_rf']
+[00:01:15] 트랙 A 완료
+[00:01:15] 트랙 B: nhits 예측 없음 → 제외
+[00:01:15] 트랙 B: lstm 예측 없음 → 제외
+[00:01:15] 트랙 B: chronos2_cov 예측 없음 → 제외
+[00:01:15] 트랙 B: chronos2_zs 예측 없음 → 제외
+[00:01:15] 트랙 B: 앙상블 후보 ['lgbm', 'lgbm_q', 'lgbm_peakw', 'xgb', 'cat', 'mstl', 'arima']
+[00:01:41] 트랙 B 완료
+[00:01:42] STEP 6 완료: cv_scores(ens_*), step6_*.csv, step6_final_config 저장

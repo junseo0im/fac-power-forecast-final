@@ -1,0 +1,20 @@
+[02:50:14] lstm:B:S1@F4: 시작 (mode=full, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[03:04:53] lstm:B:S1 F4 seed 42: MAE 18.64, best step 650 / 멈춤 900, 879초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[03:14:37] lstm:B:S1 F4 seed 2021: MAE 24.57, best step 350 / 멈춤 600, 584초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[03:25:05] lstm:B:S1 F4 seed 2024: MAE 23.45, best step 400 / 멈춤 650, 628초
+[03:25:05] lstm:B:S1@F4: 완료 34.9분

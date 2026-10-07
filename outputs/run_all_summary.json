@@ -1,0 +1,77 @@
+{
+  "notebook_sec": {
+    "01-1_데이터_구조와_품질진단": 19.0,
+    "01-2_전처리와_검증전략": 10.3,
+    "02-2_15분_예측모델_비교와_선정": 51.0,
+    "02-3_피크기준_경보와_오류분석": 97.8,
+    "02-4_피크위험확률_모델비교": 25.3,
+    "03-1_실험모델_영향요인과_오류분석": 103.2,
+    "04-1_피크저감_운영안": 156.4,
+    "04-2_피크관리_도우미": 13.8,
+    "06_테스트_예측결과_생성": 15.8,
+    "appendix/01_학습_파이프라인": 5.4,
+    "appendix/02_AI예측모델개발": 63.1,
+    "appendix/03_AI_확장실험": 13.3
+  },
+  "total_sec": 574.5,
+  "with_chronos": false,
+  "appendix": true,
+  "check_main": {
+    "compared": 71,
+    "changed": [],
+    "float_only": [
+      "e08_mae_by_condition.csv",
+      "e09_best_model_by_condition.csv",
+      "h01_hour_alarm.csv",
+      "h04_point_mae.csv",
+      "h05_appendix_rescored.csv",
+      "r01_file_check.csv"
+    ],
+    "new": [
+      "t57_다른모델계열_비교.csv",
+      "t58_선택편향_점검.csv"
+    ]
+  },
+  "check_appendix": {
+    "compared": 73,
+    "changed": [
+      "M24_inference_time.csv"
+    ],
+    "float_only": [],
+    "new": []
+  },
+  "env": {
+    "timestamp": "2026-10-06 17:47:36",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "cpu_logical_cores": 8,
+    "n_threads": 4,
+    "gpu": [
+      "Intel(R) Iris(R) Xe Graphics"
+    ],
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "lightgbm": "4.7.0",
+      "xgboost": "3.2.0",
+      "catboost": "1.2.10",
+      "statsforecast": "2.1.1",
+      "neuralforecast": "3.2.2",
+      "optuna": "5.0.0",
+      "shap": "0.51.0",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "torch": "2.14.1",
+      "keras": "3.15.1",
+      "chronos-forecasting": "2.3.2",
+      "papermill": "2.7.0",
+      "nbconvert": "7.17.1"
+    },
+    "ram_gb": 7.7,
+    "torch_cuda": false,
+    "torch_device": "cpu"
+  }
+}

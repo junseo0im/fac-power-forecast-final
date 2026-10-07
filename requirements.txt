@@ -1,0 +1,40 @@
+# Python 3.12.14 (실행 확인 환경: Python 3.12.14, Windows 11, CPU 전용 — GPU 없이 실행)
+# 설치: python -m pip install -r requirements.txt
+# - torch는 PyPI 기본 휠(Windows는 CPU 빌드)을 씁니다.
+# - pandas는 statsforecast·utilsforecast가 pandas<3을 요구해 2.x로 고정합니다.
+
+# 데이터·시각화
+pandas==2.3.3
+numpy==2.4.6
+pyarrow==25.0.1
+scipy==1.17.1
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# 머신러닝·해석
+scikit-learn==1.9.1
+lightgbm==4.7.0
+shap==0.51.0
+
+# 시계열 사전학습 모델(Chronos-2)
+torch==2.14.1
+chronos-forecasting==2.3.2
+transformers==5.18.0
+accelerate==1.15.0
+peft==0.21.2                # 02-1c의 LoRA 미세조정
+
+# 부록 파이프라인(모델 비교 범위 확장)
+xgboost==3.2.0
+catboost==1.2.10
+statsforecast==2.1.1
+optuna==5.0.0
+neuralforecast==3.2.2
+keras==3.15.1
+
+# 노트북 실행·재현
+ipykernel==7.4.0
+nbconvert==7.17.1
+nbformat==5.11.1
+papermill==2.7.0
+psutil==7.2.2
+pytest==9.1.1

@@ -1,0 +1,5 @@
+[20:28:13] 시작: mode=full, fold ['F6'], seed [42, 2021, 2024], 최대 500 epoch, patience 30, 스레드 1, keras 백엔드 torch
+[20:32:01] F6 seed 42: best epoch 38 / 멈춤 68, 학습 227초, MAE A 10.62 · B 20.25
+[20:40:15] F6 seed 2021: best epoch 181 / 멈춤 211, 학습 494초, MAE A 7.00 · B 20.97
+[20:42:35] F6 seed 2024: best epoch 30 / 멈춤 60, 학습 139초, MAE A 10.32 · B 19.98
+[20:42:35] 학습 완료(모으기 생략): 3회, 14.4분

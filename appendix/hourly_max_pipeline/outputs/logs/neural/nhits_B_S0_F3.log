@@ -1,0 +1,23 @@
+[04:22:19] nhits:B:S0@F3: 시작 (mode=full, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[04:38:50] nhits:B:S0 F3 seed 42: MAE 16.16, best step 900 / 멈춤 1000, 991초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[04:55:13] nhits:B:S0 F3 seed 2021: MAE 18.29, best step 900 / 멈춤 1000, 983초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=1000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[05:11:38] nhits:B:S0 F3 seed 2024: MAE 16.58, best step 750 / 멈춤 1000, 985초
+[05:11:38] nhits:B:S0@F3: 완료 49.3분

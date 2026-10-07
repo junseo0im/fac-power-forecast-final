@@ -1,0 +1,14 @@
+﻿모델,A,B
+arima,0.0,0.0
+cat,0.11,0.0
+chronos2_cov,0.02,0.521
+chronos2_zs,0.414,0.0
+guidebook_rf,0.0,0.0
+lgbm,0.13,0.0
+lgbm_peakw,0.0,0.0
+lgbm_q,0.0,0.0
+lstm,0.324,0.0
+mstl,0.0,0.0
+nhits,0.002,0.0
+xgb,0.0,0.479
+상위 3개(단순평균),"chronos2_zs, chronos2_cov, lgbm_q","chronos2_cov, chronos2_zs, xgb"

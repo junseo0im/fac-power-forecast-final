@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights:   6%|▌         | 10/170 [00:00<00:01, 96.07it/s]Loading weights:  12%|█▏        | 20/170 [00:00<00:01, 97.17it/s]Loading weights:  19%|█▉        | 33/170 [00:00<00:01, 109.90it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 423.56it/s]
+[06:10:35] chronos2_cov A S1: 623초
+[06:11:21] arima A S1: 46초
+[06:29:18] mstl A S0: 1077초
+[06:35:00] chronos2_zs A S0: 341초
+[06:35:24] chronos2_cov B S1: 24초
+[06:35:59] arima B S1: 35초
+[06:36:45] mstl B S0: 47초
+[06:36:49] chronos2_zs B S0: 3초
+[06:36:49] 일부 모델 예측 완료(앙상블·채점 파일은 전체 실행에서 작성)

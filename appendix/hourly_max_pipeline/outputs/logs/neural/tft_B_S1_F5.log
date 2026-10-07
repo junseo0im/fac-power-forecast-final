@@ -1,0 +1,22 @@
+[22:42:36] tft:B:S1@F5: 시작 (mode=fast, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=500` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[23:53:43] tft:B:S1 F5 seed 42: MAE 9.30, best step 350 / 멈춤 500, 4267초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[01:00:40] tft:B:S1 F5 seed 2021: MAE 11.88, best step 200 / 멈춤 450, 4016초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+`Trainer.fit` stopped: `max_steps=500` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[02:11:50] tft:B:S1 F5 seed 2024: MAE 13.31, best step 450 / 멈춤 500, 4271초
+[02:11:50] tft:B:S1@F5: 완료 209.2분

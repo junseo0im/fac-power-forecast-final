@@ -1,0 +1,85 @@
+{
+  "설명": "최종 선정 모델 설정. Chronos-2는 사전학습 가중치를 그대로 쓰므로(학습 없음) 가중치 버전과 입력 설정을 기록한다.",
+  "선정": {
+    "선정 시각": "2026-10-05 05:59:16",
+    "테스트 사용": "아니오(검증 F2~F6만)",
+    "A": "chronos2_zs:S0",
+    "A_alarm": "스태킹",
+    "A_alarm_f1": {
+      "스태킹": 0.7845,
+      "경로2 분류기(가중)": 0.7568,
+      "경로1 ens_q 분위수": 0.7478,
+      "경로1 Chronos-2 분위수": 0.7304
+    },
+    "B": "chronos2_cov:S1",
+    "B_alarm": "경로2 분류기(가중)",
+    "B_alarm_f1": {
+      "경로2 분류기(가중)": 0.6763,
+      "스태킹": 0.6742,
+      "경로1 Chronos-2 분위수": 0.6727,
+      "경로1 ens_q 분위수": 0.6377
+    }
+  },
+  "chronos-forecasting": "2.3.2",
+  "트랙 A": {
+    "모델": "amazon/chronos-2",
+    "hf_revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "방식": "zero-shot 단변량(공변량 없음)",
+    "문맥 길이": "예측 시점 이전 전체(full)",
+    "예측 길이": 1,
+    "분위수": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "0값 처리": "outage 시간은 NaN으로 입력(마스크)",
+    "호출": "Chronos2Pipeline.from_pretrained('amazon/chronos-2', device_map='cpu').predict_quantiles(...)",
+    "피크 경보": "스태킹",
+    "경보 설정": "outputs/models/step6_final_config.pkl (트랙 A 확률 층)"
+  },
+  "트랙 B": {
+    "모델": "amazon/chronos-2",
+    "hf_revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "방식": "zero-shot + 공변량(S1)",
+    "문맥 길이": 1344,
+    "예측 길이": 24,
+    "미래 공변량": [
+      "hour_sin",
+      "hour_cos",
+      "offday",
+      "billing_hour",
+      "tou_load",
+      "prod_day"
+    ],
+    "과거 공변량": [
+      "usage"
+    ],
+    "생산계획 결손": "학습 구간 생산일 중앙값으로 채움",
+    "피크 경보": "경로2 분류기(가중)",
+    "경보 설정": "outputs/models/step6_final_config.pkl (트랙 B 확률 층)"
+  },
+  "테스트 경보 임계값": {
+    "A": {
+      "p1q": 0.385,
+      "p2": 0.42,
+      "stack": 0.42,
+      "p1": 0.341
+    },
+    "B": {
+      "p1q": 0.34,
+      "p2": 0.36,
+      "stack": 0.24,
+      "p1": 0.32
+    }
+  },
+  "해석용 대리 모델(SHAP)": [
+    "outputs/models/final_lgbm_A_S1_seed42.txt",
+    "outputs/models/final_lgbm_B_S1_seed42.txt"
+  ]
+}

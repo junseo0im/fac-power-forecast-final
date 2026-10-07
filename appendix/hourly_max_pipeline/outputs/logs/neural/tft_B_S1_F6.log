@@ -1,0 +1,20 @@
+[22:42:36] tft:B:S1@F6: 시작 (mode=fast, seed 3개, 스레드 1)
+Seed set to 42
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[23:38:29] tft:B:S1 F6 seed 42: MAE 7.07, best step 150 / 멈춤 400, 3352초
+Seed set to 2021
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[00:38:05] tft:B:S1 F6 seed 2021: MAE 6.50, best step 150 / 멈춤 400, 3576초
+Seed set to 2024
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+[01:45:05] tft:B:S1 F6 seed 2024: MAE 6.80, best step 200 / 멈춤 450, 4020초
+[01:45:05] tft:B:S1@F6: 완료 182.5분

@@ -1,0 +1,45 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights:   5%|▌         | 9/170 [00:00<00:01, 86.46it/s]Loading weights:  11%|█         | 18/170 [00:00<00:01, 84.08it/s]Loading weights:  16%|█▋        | 28/170 [00:00<00:01, 84.88it/s]Loading weights:  22%|██▏       | 37/170 [00:00<00:01, 67.53it/s]Loading weights:  72%|███████▏  | 122/170 [00:00<00:00, 295.20it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 278.20it/s]
+[00:39:07] cov:base:B:S0:1344@F1: MAE B 6.17, 28초
+[00:39:32] cov:base:B:S0:1344@F2: MAE B 6.15, 26초
+[00:39:59] cov:base:B:S0:1344@F3: MAE B 11.31, 26초
+[00:40:29] cov:base:B:S0:1344@F4: MAE B 15.45, 30초
+[00:40:58] cov:base:B:S0:1344@F5: MAE B 14.77, 29초
+[00:41:24] cov:base:B:S0:1344@F6: MAE B 6.56, 25초
+[00:41:53] cov:base:B:S1:1344@F1: MAE B 6.03, 29초
+[00:42:23] cov:base:B:S1:1344@F2: MAE B 6.14, 30초
+[00:42:53] cov:base:B:S1:1344@F3: MAE B 11.46, 30초
+[00:43:23] cov:base:B:S1:1344@F4: MAE B 14.24, 31초
+[00:43:53] cov:base:B:S1:1344@F5: MAE B 7.55, 29초
+[00:44:22] cov:base:B:S1:1344@F6: MAE B 6.69, 30초
+[00:45:00] cov:base:B:S2:1344@F1: MAE B 6.08, 37초
+[00:45:37] cov:base:B:S2:1344@F2: MAE B 6.10, 37초
+[00:46:14] cov:base:B:S2:1344@F3: MAE B 11.43, 37초
+[00:46:51] cov:base:B:S2:1344@F4: MAE B 11.00, 37초
+[00:47:27] cov:base:B:S2:1344@F5: MAE B 6.08, 36초
+[00:48:03] cov:base:B:S2:1344@F6: MAE B 6.59, 36초
+[00:59:43] cov:base:A:S1:1344@F1: MAE A 4.93, 699초
+[01:10:58] cov:base:A:S1:1344@F2: MAE A 5.76, 676초
+[01:22:28] cov:base:A:S1:1344@F3: MAE A 8.67, 690초
+[01:33:56] cov:base:A:S1:1344@F4: MAE A 5.62, 688초
+[01:45:20] cov:base:A:S1:1344@F5: MAE A 5.26, 684초
+[01:56:23] cov:base:A:S1:1344@F6: MAE A 5.42, 662초
+Loading weights:   0%|          | 0/92 [00:00<?, ?it/s]Loading weights:  20%|█▉        | 18/92 [00:00<00:00, 179.83it/s]Loading weights: 100%|██████████| 92/92 [00:00<00:00, 614.06it/s]
+[01:59:34] cov:small:A:S1:1344@F4: MAE A 6.81, 191초
+[02:02:38] cov:small:A:S1:1344@F5: MAE A 5.02, 185초
+[02:05:34] cov:small:A:S1:1344@F6: MAE A 5.76, 176초
+[02:05:41] cov:small:B:S1:1344@F4: MAE B 14.24, 7초
+[02:05:49] cov:small:B:S1:1344@F5: MAE B 6.29, 7초
+[02:05:56] cov:small:B:S1:1344@F6: MAE B 7.18, 7초
+[02:15:05] cov:base:A:S0:1344@F1: MAE A 4.93, 550초
+[02:24:02] cov:base:A:S0:1344@F2: MAE A 5.74, 537초
+[02:33:01] cov:base:A:S0:1344@F3: MAE A 8.68, 538초
+[02:41:59] cov:base:A:S0:1344@F4: MAE A 5.76, 538초
+[02:50:56] cov:base:A:S0:1344@F5: MAE A 5.19, 538초
+[02:59:52] cov:base:A:S0:1344@F6: MAE A 5.39, 536초
+[03:12:40] cov:base:A:S2:1344@F1: MAE A 4.93, 769초
+[03:25:22] cov:base:A:S2:1344@F2: MAE A 5.72, 761초
+[03:37:57] cov:base:A:S2:1344@F3: MAE A 8.66, 755초
+[03:50:28] cov:base:A:S2:1344@F4: MAE A 5.44, 751초
+[04:03:05] cov:base:A:S2:1344@F5: MAE A 4.86, 757초
+[04:15:35] cov:base:A:S2:1344@F6: MAE A 5.35, 750초

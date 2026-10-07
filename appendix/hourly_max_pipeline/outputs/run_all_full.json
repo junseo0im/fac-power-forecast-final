@@ -1,0 +1,44 @@
+{
+  "mode": "full",
+  "retrain": false,
+  "notebook_sec": {
+    "01_학습_파이프라인.ipynb": 1.6,
+    "02_AI예측모델개발.ipynb": 25.4,
+    "03_AI_확장실험.ipynb": 3.7
+  },
+  "total_sec": 31.5,
+  "env": {
+    "timestamp": "2026-10-05 14:09:53",
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "cpu_logical_cores": 12,
+    "n_threads": 6,
+    "gpu": [
+      "AMD Radeon RX 7600"
+    ],
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "lightgbm": "4.7.0",
+      "xgboost": "3.2.0",
+      "catboost": "1.2.10",
+      "statsforecast": "2.1.1",
+      "neuralforecast": "3.2.2",
+      "optuna": "5.0.0",
+      "shap": "0.51.0",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "torch": "2.14.1",
+      "keras": "3.15.1",
+      "chronos-forecasting": "2.3.2",
+      "papermill": "2.7.0",
+      "nbconvert": "7.17.1"
+    },
+    "ram_gb": 31.9,
+    "torch_cuda": false,
+    "torch_device": "cpu"
+  }
+}

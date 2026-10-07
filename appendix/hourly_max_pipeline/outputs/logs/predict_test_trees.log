@@ -1,0 +1,18 @@
+[06:00:42] lgbm A S1: 30초
+[06:01:51] lgbm_q A S1: 69초
+[06:02:09] lgbm_peakw A S1: 18초
+[06:02:27] xgb A S1: 18초
+[06:03:05] cat A S1: 38초
+[06:03:05] naive_last A S0: 0초
+[06:03:05] naive_week A S0: 0초
+[06:03:05] naive_4wk A S0: 0초
+[06:03:12] guidebook_rf A S0: 7초
+[06:03:30] lgbm B S1: 18초
+[06:05:02] lgbm_q B S1: 92초
+[06:05:21] lgbm_peakw B S1: 18초
+[06:05:25] xgb B S1: 4초
+[06:05:33] cat B S1: 8초
+[06:05:33] naive_last B S0: 0초
+[06:05:33] naive_week B S0: 0초
+[06:05:33] naive_4wk B S0: 0초
+[06:05:33] 일부 모델 예측 완료(앙상블·채점 파일은 전체 실행에서 작성)

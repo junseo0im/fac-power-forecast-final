@@ -1,0 +1,11 @@
+﻿feature_1,feature_2,mean_abs_interaction,track
+y_lag3,q4_lag1,2.343,A
+y_lag168,q4_lag1,2.059,A
+hour,q4_lag1,1.567,A
+q4_lag1,q_min_lag1,1.41,A
+y_lag24,y_lag168,1.393,A
+y_dow4w,prod_day,12.409,B
+hour,prod_day,8.092,B
+month,prod_day,4.25,B
+y_d7,y_dow4w,2.8,B
+hour,y_dow4w,2.25,B

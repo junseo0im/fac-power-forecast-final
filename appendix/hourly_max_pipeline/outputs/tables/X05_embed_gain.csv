@@ -1,0 +1,3 @@
+﻿track,임베딩 성분 gain 비율,임베딩 상위 성분,전체 상위 5개 피처
+A,0.19921605035817366,emb_14,"y_lag1, q4_lag1, hour, y_lag168, month"
+B,0.26110396674519837,emb_02,"y_d14, y_d7, hour, y_dow4w, y_d1"

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-10-06 17:46:32",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+  "cpu_logical_cores": 8,
+  "n_threads": 4,
+  "gpu": [
+    "Intel(R) Iris(R) Xe Graphics"
+  ],
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "catboost": "1.2.10",
+    "statsforecast": "2.1.1",
+    "neuralforecast": "3.2.2",
+    "optuna": "5.0.0",
+    "shap": "0.51.0",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "torch": "2.14.1",
+    "keras": "3.15.1",
+    "chronos-forecasting": "2.3.2",
+    "papermill": "2.7.0",
+    "nbconvert": "7.17.1"
+  },
+  "ram_gb": 7.7,
+  "torch_cuda": false,
+  "torch_device": "cpu",
+  "mode": "full",
+  "seeds": [
+    42,
+    2021,
+    2024,
+    2025,
+    2026
+  ]
+}

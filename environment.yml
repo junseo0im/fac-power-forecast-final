@@ -1,0 +1,8 @@
+name: kamp-power
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.14
+  - pip
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,62 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/170 [00:00<?, ?it/s]Loading weights:   8%|▊         | 13/170 [00:00<00:01, 94.45it/s]Loading weights:  14%|█▎        | 23/170 [00:00<00:02, 70.18it/s]Loading weights:  21%|██        | 36/170 [00:00<00:01, 84.35it/s]Loading weights:  29%|██▉       | 49/170 [00:00<00:01, 96.52it/s]Loading weights:  35%|███▌      | 60/170 [00:00<00:01, 82.90it/s]Loading weights: 100%|██████████| 170/170 [00:00<00:00, 233.89it/s]
+[23:29:35] zs:base:B:336@F1: MAE B 6.09, 3초
+[23:29:36] zs:base:B:336@F2: MAE B 6.24, 1초
+[23:29:37] zs:base:B:336@F3: MAE B 12.33, 1초
+[23:29:38] zs:base:B:336@F4: MAE B 19.58, 1초
+[23:29:39] zs:base:B:336@F5: MAE B 22.85, 1초
+[23:29:39] zs:base:B:336@F6: 저장된 결과 사용
+[23:29:41] zs:base:B:672@F1: MAE B 5.61, 2초
+[23:29:44] zs:base:B:672@F2: MAE B 6.04, 3초
+[23:29:46] zs:base:B:672@F3: MAE B 11.75, 2초
+[23:29:48] zs:base:B:672@F4: MAE B 19.48, 2초
+[23:29:50] zs:base:B:672@F5: MAE B 12.20, 2초
+[23:29:52] zs:base:B:672@F6: MAE B 6.87, 2초
+[23:29:55] zs:base:B:1344@F1: MAE B 5.64, 4초
+[23:29:59] zs:base:B:1344@F2: MAE B 5.92, 4초
+[23:30:03] zs:base:B:1344@F3: MAE B 11.36, 4초
+[23:30:07] zs:base:B:1344@F4: MAE B 19.24, 4초
+[23:30:11] zs:base:B:1344@F5: MAE B 12.11, 4초
+[23:30:15] zs:base:B:1344@F6: MAE B 6.32, 4초
+[23:30:23] zs:base:B:2688@F1: MAE B 5.34, 7초
+[23:30:30] zs:base:B:2688@F2: MAE B 5.57, 8초
+[23:30:38] zs:base:B:2688@F3: MAE B 11.38, 8초
+[23:30:45] zs:base:B:2688@F4: MAE B 20.36, 8초
+[23:30:54] zs:base:B:2688@F5: MAE B 12.85, 9초
+[23:31:02] zs:base:B:2688@F6: MAE B 6.17, 8초
+[23:31:13] zs:base:B:full@F1: MAE B 5.12, 12초
+[23:31:26] zs:base:B:full@F2: MAE B 5.65, 13초
+[23:31:40] zs:base:B:full@F3: MAE B 11.51, 14초
+[23:31:54] zs:base:B:full@F4: MAE B 21.57, 14초
+[23:32:10] zs:base:B:full@F5: MAE B 15.49, 16초
+[23:32:26] zs:base:B:full@F6: MAE B 6.21, 16초
+[23:32:50] zs:base:A:336@F1: MAE A 5.21, 24초
+[23:33:14] zs:base:A:336@F2: MAE A 5.92, 24초
+[23:33:38] zs:base:A:336@F3: MAE A 8.39, 24초
+[23:34:01] zs:base:A:336@F4: MAE A 5.90, 23초
+[23:34:24] zs:base:A:336@F5: MAE A 6.26, 23초
+[23:34:47] zs:base:A:336@F6: MAE A 5.81, 23초
+[23:35:31] zs:base:A:672@F1: MAE A 4.87, 44초
+[23:36:15] zs:base:A:672@F2: MAE A 5.66, 44초
+[23:36:58] zs:base:A:672@F3: MAE A 8.39, 43초
+[23:37:40] zs:base:A:672@F4: MAE A 5.74, 43초
+[23:38:24] zs:base:A:672@F5: MAE A 5.39, 44초
+[23:39:08] zs:base:A:672@F6: MAE A 5.94, 44초
+[23:40:33] zs:base:A:1344@F1: MAE A 4.83, 84초
+[23:41:57] zs:base:A:1344@F2: MAE A 5.65, 84초
+[23:43:23] zs:base:A:1344@F3: MAE A 8.30, 86초
+[23:44:50] zs:base:A:1344@F4: MAE A 5.81, 87초
+[23:46:16] zs:base:A:1344@F5: MAE A 5.22, 86초
+[23:47:42] zs:base:A:1344@F6: MAE A 5.36, 86초
+[23:50:46] zs:base:A:2688@F1: MAE A 4.58, 184초
+[23:53:43] zs:base:A:2688@F2: MAE A 5.24, 176초
+[23:56:37] zs:base:A:2688@F3: MAE A 8.21, 174초
+[23:59:31] zs:base:A:2688@F4: MAE A 5.70, 174초
+[00:02:27] zs:base:A:2688@F5: MAE A 5.17, 176초
+[00:05:22] zs:base:A:2688@F6: MAE A 5.12, 175초
+[00:09:51] zs:base:A:full@F1: MAE A 4.40, 269초
+[00:14:35] zs:base:A:full@F2: MAE A 5.09, 284초
+[00:19:46] zs:base:A:full@F3: MAE A 8.17, 311초
+[00:25:16] zs:base:A:full@F4: MAE A 5.74, 330초
+[00:31:10] zs:base:A:full@F5: MAE A 5.34, 354초
+[00:37:24] zs:base:A:full@F6: MAE A 5.15, 374초

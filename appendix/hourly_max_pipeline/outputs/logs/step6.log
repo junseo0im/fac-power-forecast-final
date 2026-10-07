@@ -1,0 +1,5 @@
+[05:57:30] 트랙 A: 앙상블 후보 ['lgbm', 'lgbm_q', 'lgbm_peakw', 'xgb', 'cat', 'nhits', 'lstm', 'chronos2_cov', 'chronos2_zs', 'mstl', 'guidebook_rf']
+[05:57:52] 트랙 A 완료
+[05:57:52] 트랙 B: 앙상블 후보 ['lgbm', 'lgbm_q', 'lgbm_peakw', 'xgb', 'cat', 'nhits', 'lstm', 'chronos2_cov', 'chronos2_zs', 'mstl', 'arima']
+[05:58:09] 트랙 B 완료
+[05:58:09] STEP 6 완료: cv_scores(ens_*), step6_*.csv, step6_final_config 저장

@@ -1,0 +1,53 @@
+{
+  "mode": "full",
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "folds": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+  ],
+  "test_refit_epochs": 164,
+  "train_sec_sum": 7615.2,
+  "note": "학습은 fold별 프로세스 6개를 스레드 1개씩 병렬 실행",
+  "env": {
+    "timestamp": "2026-10-04 20:59:23",
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "cpu_logical_cores": 12,
+    "n_threads": 6,
+    "gpu": [
+      "AMD Radeon RX 7600"
+    ],
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "lightgbm": "4.7.0",
+      "xgboost": "3.2.0",
+      "catboost": "1.2.10",
+      "statsforecast": "2.1.1",
+      "neuralforecast": "3.2.2",
+      "optuna": "5.0.0",
+      "shap": "0.51.0",
+      "pyarrow": "25.0.1",
+      "matplotlib": "3.11.2",
+      "seaborn": "0.13.2",
+      "torch": "2.14.1",
+      "keras": "3.15.1",
+      "chronos-forecasting": "2.3.2",
+      "papermill": "2.7.0",
+      "nbconvert": "7.17.1"
+    },
+    "ram_gb": 31.9,
+    "torch_cuda": false,
+    "torch_device": "cpu"
+  }
+}

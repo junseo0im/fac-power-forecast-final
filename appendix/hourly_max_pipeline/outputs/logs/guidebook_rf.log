@@ -1,0 +1,9 @@
+[21:00:48] 시작: 사용 가능 5,812시간, fold ['F1', 'F2', 'F3', 'F4', 'F5', 'F6'], seed [42, 2021, 2024, 2025, 2026], 스레드 2
+[21:00:51] F1: seed 평균 MAE 5.74
+[21:00:55] F2: seed 평균 MAE 5.90
+[21:00:59] F3: seed 평균 MAE 10.16
+[21:01:03] F4: seed 평균 MAE 11.49
+[21:01:07] F5: seed 평균 MAE 6.03
+[21:01:11] F6: seed 평균 MAE 6.80
+[21:01:15] 무작위 70:30: seed 평균 MAE 6.50, 그중 검증 기간 행만 6.21
+[21:01:15] 완료: cv_scores.csv, oof_guidebook_rf_A_S0.parquet, guidebook_rf_split_scores.csv 저장
