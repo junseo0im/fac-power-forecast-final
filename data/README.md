@@ -16,9 +16,9 @@ Windows에서는 `certutil -hashfile data\raw\okm_augumented_2021.csv SHA256` �
 8f7af2e49366c93e1d6f5fdef4b5e350066c1792ac463c2c2886e370f4674830
 ```
 
-# 외부 자료 준비 (03d 노트북, 선택)
+# 외부 자료 준비 (02-1c 노트북, 선택)
 
-03d 노트북은 공개된 다른 공장의 15분 전력 자료로 Chronos-2를 미세조정합니다. 두 자료 모두 CC BY 4.0이며, 대회 제출 zip에는 `data/external/`에 들어 있습니다. 저장소에서 받은 경우 아래 파일을 `data/external/`에 둡니다. 없으면 `run_all.py`가 03d를 건너뛰고 저장된 예측을 씁니다.
+02-1c 노트북은 공개된 다른 공장의 15분 전력 자료로 Chronos-2를 미세조정합니다. 두 자료 모두 CC BY 4.0이며, 대회 제출 zip에는 `data/external/`에 들어 있습니다. 저장소에서 받은 경우 아래 파일을 `data/external/`에 둡니다. 없으면 `run_all.py --with-chronos`도 02-1c는 건너뛰고 저장된 예측을 씁니다.
 
 | 파일 | 출처 |
 |---|---|
@@ -31,4 +31,4 @@ curl -L -o data/external/LoadProfile_30IPs_2017.csv https://zenodo.org/api/recor
 curl -L -o data/external/steel.zip "https://archive.ics.uci.edu/static/public/851/steel+industry+energy+consumption.zip"
 ```
 
-03d 노트북이 세 파일의 SHA-256 값을 확인합니다.
+02-1c 노트북이 세 파일의 SHA-256 값을 확인합니다.
