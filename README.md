@@ -215,10 +215,11 @@ flowchart LR
 ├── data/                       원자료 받는 법
 ├── docs/                       분석 상세, 실행과 재현성, 데이터와 외부 자료, 참고 자료
 ├── run_all.py                  전체 노트북 자동 실행
-└── REPORT.md                   결과보고서
+├── REPORT.md                   결과보고서
+└── LICENSE
 ```
 
-노트북별 내용은 [docs/분석_상세.md](docs/분석_상세.md)에 있습니다.
+노트북별 내용은 [docs/분석_상세.md](docs/분석_상세.md), 부록 파이프라인은 [appendix/hourly_max_pipeline/README.md](appendix/hourly_max_pipeline/README.md)에 있습니다.
 
 ## 실행 방법
 
@@ -237,6 +238,14 @@ python -m pytest tests -q    # 자동 점검
 - 실측 구간이 7~9월 74일뿐이라 겨울 피크와 계약전력은 확인하지 못했습니다.
 - 설비별 계측이 없어 옮길 수 있는 부하(10%)는 여러 방법으로 추정한 가정값입니다.
 - 222kW가 여러 날 반복되고 넘는 값이 없어 계측 상한일 가능성이 있습니다.
+
+## 라이선스
+
+이 프로젝트에서 작성한 코드와 문서는 [MIT 라이선스](LICENSE)를 따릅니다. 다음은 각자의 조건을 따릅니다.
+
+- KAMP 데이터셋: 저장소에 포함하지 않으며 KAMP 이용 조건을 따릅니다.
+- 부록의 가이드북 노트북(`resource_optimization_baseline.ipynb`): KAMP 분석실습 가이드북 예제 코드를 옮긴 것으로 원저작자에게 권리가 있습니다.
+- 외부 전력 자료(CC BY 4.0), Chronos-2 가중치(Apache-2.0)
 
 ## 데이터 출처
 
