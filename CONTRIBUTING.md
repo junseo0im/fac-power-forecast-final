@@ -1,6 +1,6 @@
 # 기여 방법
 
-팀원이 같은 방식으로 작업 기록을 남기도록 정한 규칙입니다.
+이 저장소에서 작업 기록을 같은 방식으로 남기기 위한 규칙입니다.
 
 ## 커밋 메시지
 
@@ -31,4 +31,4 @@
 - 외부 자료(`data/external/`)와 미세조정 체크포인트(`outputs/chronos_ft/`)
 - 실제 전력값이 들어 있는 예측·판단 기록: `outputs/predictions/`에서 `chronos_*`, `extra_*` 외 파일, `outputs/preds/`, 루트의 `테스트데이터_예측결과.csv`
 - 부록의 실제값 파일: `appendix/hourly_max_pipeline/outputs/preds/`, `outputs/submission/`, 표 `step6_*`·`shap_features_*`
-- 블라인드 검사용 단어 목록(`blind_words.txt`), 제출 zip
+- 로컬 점검용 파일과 압축 파일(`*.zip`)
